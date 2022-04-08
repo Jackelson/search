@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.wrapper {
+	width: 400px;
+	margin: 100px auto 0;
+	border: 1px solid #666;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+.wrapper .filter {
+    margin-bottom: 20px;
+}
+.wrapper .filter input{
+	outline: none;
+}
+.wrapper .filter span{
+    color: #3c8dff;
+    padding: 0px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.wrapper .filter .active{
+	 color: #fff;
+    background-color: #3c8dff;
+}
+.wrapper .filterlist .name{
+	margin-bottom: 10px
+}
+.wrapper .filterlist li .des{
+	font-size: 14px;
+	color: #666666;
+}
+.wrapper .filterlist li{
+	height: 60px;
+	position: relative;
+	padding-left: 50px;
+	padding-top: 10px;
+	border-bottom: 2px solid #666;
+}
+.wrapper .filterlist li img{
+	position: absolute;
+	left:0;
+	top: 10px;
+    width: 40px;
+    height: 40px;
+}
